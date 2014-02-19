@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<SearchBar id="searchBar" onChange="search"/>
+		<ScrollView id="scrollView">
+			<Widget src="com.criteriastudio.hlabel" id="hlabel" />
+		</ScrollView>
+	</Window>
+</Alloy>

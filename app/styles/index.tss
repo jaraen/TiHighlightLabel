@@ -1,0 +1,32 @@
+".container": {
+	backgroundColor:"white"
+},
+"#searchBar": {
+	top:20,
+	zIndex:10
+},
+"#scrollView":{
+	contentHeight:'auto',
+	contentWidth:'auto',
+	showVerticalScrollIndicator:true,
+	disableBounce:true,
+	top:60
+},
+"#hlabel":{
+	left:20,
+	right:20,
+	top:20,
+	font:{
+		fontFamily:'HelveticaNeue',
+		fontSize:12
+	},
+	color:'#333',
+	highlight:{
+		color:'#00f',
+		backgroundColor:'yellow',
+		font:{
+			fontFamily:'HelveticaNeue-Bold',
+			fontSize:12
+		},
+	}
+}
