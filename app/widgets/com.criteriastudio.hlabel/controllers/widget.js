@@ -7,7 +7,7 @@ $.highlight = function(match){
 	
 	var match = (match || '').toUpperCase();
 	var text = ($.label.text || '').toUpperCase();
-	var positions = [], machLength = 0, attributes = [];
+	var positions = [], matchLength = 0, attributes = [];
 	
 	if(text.indexOf(match) == -1 || !match){	//no results or empty string?
 		cleanLabel();
@@ -55,9 +55,9 @@ function cleanLabel(){
             range: [0, length]
         },
         {
-            type: Titanium.UI.iOS.ATTRIBUTE_FOREGROUND_COLOR,
-            value: $.label.color || '#000',
-            range: [0, text.length]
+            type: Titanium.UI.iOS.ATTRIBUTE_FONT,
+            value: $.label.font,
+            range: [0, length]
         }
     ];
 	

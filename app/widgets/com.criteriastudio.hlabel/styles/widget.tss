@@ -1,13 +1,15 @@
 "Label": {
 	color: '#000',
 	font: {
-		fontSize: 18,
-		fontWeight: 'bold'
+		fontSize: 18
 	},
 	height: Ti.UI.SIZE,
 	width: Ti.UI.SIZE,
 	highlight:{		//set default values to avoid undefined properties
 		color:'#00f',
-		backgroundColor:'yellow'
+		backgroundColor:'yellow',
+		font: {
+			fontSize: 18
+		},
 	},
 }

@@ -1,4 +1,3 @@
 <Alloy>
-	<!--View id="container" /-->
 	<Label id="label" />
 </Alloy>
