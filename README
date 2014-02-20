@@ -4,6 +4,8 @@ TiHighlightLabel Widget and demo project
 
 This Titanium + Alloy project demonstrates the use of AttributedString component introduced in Titanium 3.2 for iOS7.
 
+![Screenshot](https://raw2.github.com/jaraen/TiHighlightLabel/master/screenshot.png "TiHighlightLabel")
+
 TiHighlightLabel is a normal label that allows to highlight dynamically part of its text.
 
 It implements a search method to easily highlight all the occurrences in its text.
